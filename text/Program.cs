@@ -30,6 +30,7 @@ class S
         int output;
         while (1 == 1)
         {
+            
             if (!int.TryParse(Console.ReadLine(), out output)) Console.WriteLine("input is not a integer");
             else
             {
