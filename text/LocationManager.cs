@@ -2,8 +2,14 @@ class LocationManager
 {
     List<Location> locationsOfAdolfKirkKöping;
 
-    public void ExecuteLocation()
+    public void ExecuteLocation(Location location)
     {
-        System.Console.WriteLine();
+        System.Console.WriteLine(location.name);
+        System.Console.WriteLine(location.description);
+        
+        
     }
+    
+   
+
 }
