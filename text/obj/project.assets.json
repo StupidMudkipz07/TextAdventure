@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net10.0": {}
   },
@@ -8,25 +8,26 @@
     "net10.0": []
   },
   "packageFolders": {
-    "/home/ultrabuss/.nuget/packages/": {}
+    "C:\\Users\\arvid\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ultrabuss/Documents/programming/SloppaGibbet/TextAdventure/text/text.csproj",
+      "projectUniqueName": "C:\\Users\\arvid\\source\\repos\\TextAdventure\\text\\text.csproj",
       "projectName": "text",
-      "projectPath": "/home/ultrabuss/Documents/programming/SloppaGibbet/TextAdventure/text/text.csproj",
-      "packagesPath": "/home/ultrabuss/.nuget/packages/",
-      "outputPath": "/home/ultrabuss/Documents/programming/SloppaGibbet/TextAdventure/text/obj/",
+      "projectPath": "C:\\Users\\arvid\\source\\repos\\TextAdventure\\text\\text.csproj",
+      "packagesPath": "C:\\Users\\arvid\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\arvid\\source\\repos\\TextAdventure\\text\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/ultrabuss/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\arvid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "/usr/lib/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -46,7 +47,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net10.0": {
@@ -68,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.111/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
