@@ -1,8 +1,10 @@
 class Location
 {
-    string description;
-    string cowardDialouge;
-    string braveDialouge;
+    string Name;
+    string Description;
 
-
+    List<LocationPointer> possibleLocationsToGoTo;
+    
+    Location cowardLocation;
+    Location braveLocation;
 }

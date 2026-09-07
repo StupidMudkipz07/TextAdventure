@@ -41,7 +41,7 @@ class Fight
         while (Winner == null)
         {
             turn++;
-            System.Console.WriteLine("turn: " + turn);
+            Console.WriteLine("turn: " + turn);
             PrintHp(player,opponent);
             if (AttackTarget(opponent, player)) Winner = opponent;
             else if (AttackTarget(player, opponent)) Winner = player;
